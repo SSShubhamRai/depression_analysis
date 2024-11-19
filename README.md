@@ -51,7 +51,7 @@ Key driving factors behind this project:
 ## 🔄 System Architecture
 
 ### Context Level (Level 0) DFD
-mermaid
+'''mermaid
 flowchart TD
     User((User))-->|Input Query| SA[Sentiment Analysis System]
     DS[(Kaggle Dataset)]-->|Training Data| SA
@@ -63,7 +63,7 @@ flowchart TD
     
     class User user;
     class SA system;
-    class DS data;
+    class DS data;'''
 
 
 ### Main System Components (Level 1) DFD
